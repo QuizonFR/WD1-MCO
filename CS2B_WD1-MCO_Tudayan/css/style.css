@@ -1,0 +1,176 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  padding: 15px 30px;
+}
+
+header .title {
+  flex: 20%;
+}
+
+/* Nav */
+nav ul a:hover {
+  /* Hover special effect to underline */
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  /* Takes out underline and boldens the text */
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*Buttons*/
+.page-button {
+  width: 200px;
+  border-radius: 100pc;
+  margin-top: 1px;
+}
+
+.page-button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  background-image: url(/src/hero/about_us.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  justify-content: center; /* center vertically */
+  align-items: center; /* center horizontally */
+}
+
+/* Main Body */
+.body-sec {
+  display: flex;
+  background-color: rgb(207, 207, 207);
+}
+
+.content {
+  display: flex;
+  flex: 80%;
+}
+
+.tudayan {
+  flex: 50%;
+}
+
+.quizon {
+  flex: 50%;
+}
+
+.self-portrait {
+  width: 300px;
+  height: 300px;
+  border: 5px solid rgb(27, 27, 27);
+  border-radius: 70px;
+  margin-left: 5px;
+  margin-top: 5px;
+  justify-content: center;
+}
+
+.img {
+  display: flex; /* enables flexbox */
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+}
+
+.personal-content {
+  align-items: center;
+  text-align: center;
+}
+
+.portrait-info h3,
+p {
+  margin: 1px;
+}
+
+.hobbies,
+.activities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  border: 3px solid Black;
+  border-radius: 6px;
+  margin: 5px;
+  background-color: aliceblue;
+}
+
+.hobbies .photo {
+  width: 250px;
+  height: 250px;
+}
+
+.activities .photo {
+  width: 480px;
+  height: 300px;
+}
+
+/* Aside */
+aside {
+  flex: 20%;
+  margin-left: 5px;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px, solid, black;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.birthday {
+  background-color: rgb(255, 172, 172);
+}
+
+aside a {
+  /* Takes out underline and boldens the text */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+form input, textarea {
+  width: 100%;
+}
+
+footer button { /* Making the button look nice */
+  background: black;
+  color: white;
+  padding: 10px 15px;
+}
+
+footer button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

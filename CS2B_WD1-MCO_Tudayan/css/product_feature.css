@@ -1,0 +1,93 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  padding: 15px 30px;
+}
+
+header .title {
+  flex: 20%;
+}
+
+/* Nav */
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  /* Takes out underline and boldens the text */
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*Buttons*/
+.page-button {
+  width: 200px;
+  border-radius: 100pc;
+  margin-top: 1px;
+}
+
+.page-button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+/*Background*/
+.hero {
+  background: url("/src/hero/hitler.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;            
+  justify-content: center;  
+  align-items: center;
+}
+
+/*Product Features*/
+.product-feature {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+}
+
+.feature-card:hover {
+    background-color: rgb(255, 92, 92);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: black;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+form input,
+textarea {
+  width: 100%;
+}
+
+footer button {
+  /* Making the button look nice */
+  background: White;
+  color: Black;
+  padding: 10px 15px;
+}
+
+footer button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
