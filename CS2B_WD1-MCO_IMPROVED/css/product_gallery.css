@@ -23,6 +23,7 @@ nav a {
   font-weight: bold;
 }
 
+/*Buttons*/
 .page-button {
   width: 200px;
   border-radius: 100pc;
@@ -34,6 +35,7 @@ nav a {
   cursor: pointer;
 }
 
+/*Background*/
 .hero {
   background: url("/src/hero/hitler.jpg");
   background-size: cover;
@@ -44,6 +46,7 @@ nav a {
   align-items: center;
 }
 
+/*Shop Logo and Title*/
 .flag {
   display: flex;            
   justify-content: center;  
@@ -58,6 +61,7 @@ nav a {
     padding: 15px 30px;
 }
 
+/*Product Items*/
 .product {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
